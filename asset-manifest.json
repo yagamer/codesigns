@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/codesigns/static/css/main.7e8e158f.css",
+    "main.js": "/codesigns/static/js/main.991fc185.js",
+    "index.html": "/codesigns/index.html",
+    "main.7e8e158f.css.map": "/codesigns/static/css/main.7e8e158f.css.map",
+    "main.991fc185.js.map": "/codesigns/static/js/main.991fc185.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e8e158f.css",
+    "static/js/main.991fc185.js"
+  ]
+}
