@@ -45,6 +45,8 @@ function App() {
                 )
             }
             <Route path="register" element={<RegisterPage />} />
+            <Route path="codesigns" element={<HomePage />} />
+
             <Route path="courses" element={<CursosPage />} />
             <Route path="resetPassword" element={<ResetPasswordPage />} />
             <Route path="projects" element={<ProjectsPage />} />
