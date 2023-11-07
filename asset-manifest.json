@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/codesigns/static/css/main.7e8e158f.css",
-    "main.js": "/codesigns/static/js/main.2eccffd0.js",
-    "index.html": "/codesigns/index.html",
-    "main.7e8e158f.css.map": "/codesigns/static/css/main.7e8e158f.css.map",
-    "main.2eccffd0.js.map": "/codesigns/static/js/main.2eccffd0.js.map"
+    "main.css": "/static/css/main.86d99b3d.css",
+    "main.js": "/static/js/main.3a9ac379.js",
+    "index.html": "/index.html",
+    "main.86d99b3d.css.map": "/static/css/main.86d99b3d.css.map",
+    "main.3a9ac379.js.map": "/static/js/main.3a9ac379.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e8e158f.css",
-    "static/js/main.2eccffd0.js"
+    "static/css/main.86d99b3d.css",
+    "static/js/main.3a9ac379.js"
   ]
 }
