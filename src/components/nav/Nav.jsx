@@ -124,7 +124,6 @@ export const Nav = () => {
                                 <i className="fa-solid fa-house"></i>
                                 <p>{t("nav.home")}</p>
                         </Link>
-                     
                         <Link to="/blog" className={style.homeNav} onClick={(e)=> setSubMenu(!subMenu)}>
                             <i className="fa-solid fa-blog"></i>
                             <p>Blog</p>
@@ -132,6 +131,10 @@ export const Nav = () => {
                         <Link to="/courses" className={style.homeNav} onClick={(e)=> setSubMenu(!subMenu)}>
                             <i className="fa-solid fa-landmark"></i>
                             <p>{t("nav.courses")}</p>
+                        </Link>
+                        <Link to="/projects" className={style.homeNav} onClick={(e)=> setSubMenu(!subMenu)}>
+                            <i className="fa-solid fa-diagram-project"></i>
+                            <p>{t("nav.portfolio")}</p>
                         </Link>
                         <Link to="/contact" className={style.homeNav} onClick={(e)=> setSubMenu(!subMenu)}>
                             <i className="fa-solid fa-user"></i>

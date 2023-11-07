@@ -33,6 +33,7 @@
     display: flex;
     margin: 5px 0;
 }
+
 @media screen and (min-width: 0) and (max-width: 709px ) {
     .blogContainer {
         display: block;
@@ -49,6 +50,7 @@
         visibility: hidden;
         position: absolute;
     }
+ 
 }
 @media screen and (min-width: 710px ) and (max-width: 949px ) {
     .blogContainer {
@@ -168,4 +170,16 @@
     text-decoration: none;
     cursor: pointer;
     color: black;
+}
+@media screen and (min-width: 0) and (max-width: 709px ) {
+    .languages {
+        margin: 0;
+    }
+    .languagesContainer {
+        display: block;
+    }
+    .css {
+        width: initial;
+    }
+   
 }
