@@ -49,6 +49,7 @@ function App() {
             <Route path="courses" element={<CursosPage />} />
             <Route path="resetPassword" element={<ResetPasswordPage />} />
             <Route path="projects" element={<ProjectsPage />} />
+            <Route path="codesigns" element={<HomePage/>} />
             <Route path="post/:id" element={<RenderPost />} />
             <Route path="*" element={<NotFoundPage />} />
           
