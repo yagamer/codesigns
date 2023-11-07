@@ -1,0 +1,79 @@
+
+
+{
+    "nav": {
+        "home": "Home",
+        "contact": "Contact",
+        "courses": "Courses",
+        "login": "Login",
+        "register": "Register", 
+        "portfolio": "Portfolio"
+    }, 
+    "gallery":  {
+        "welcome": "Welcome", 
+        "title": "¡Let's develop your next Website!", 
+        "subtitle": "Do you need a unique software solution for your company? We know how to help you",
+        "contact": "Contact" 
+    },
+    "gallery1":  {
+        "title": "Quality Online and In-Person Courses!", 
+        "subtitle": "Your Educational Future, Quality Online and In-Person Courses"
+    },
+    "gallery2": {
+        "title": "Logo Design & UI/UX Design!",
+        "subtitle1": "Our designers know the importance of designing attractive and powerful",
+        "subtitle2": "logos and to write texts that improve their visibility and recognition."
+    },
+    "title": {
+        "ourServices": "Our services",
+        "tecnology": "Technologies",
+        "contact": "Contact",
+        "publications": "Publications",
+        "courses": "Courses",
+        "portfolio": "Portfolio",
+        "project" : "Previous jobs that I did successfully"
+    
+    }, 
+    "services": {
+        "webDevelopment": "Web development",
+        "webDevelopmentSubtitle": "Everything we create is compatible with mobile devices, has integration with social networks.",
+        "designUI": "UI/UX Design",
+        "designUISubtitle": "We improve the ease of use and the pleasure that comes from interacting with a product"
+    },
+    "languages": {
+        "title": "Programming Languages ​​for Web Development",
+        "subtitle": "” Software is a great combination of art and engineering."
+    },
+    "contact": {
+        "title": "Get a quote",
+        "subtitle": "We invite you to complete the form to receive a personalized quote for our services.",
+        "name": "Name",
+        "lastName": "Last name",
+        "email": "Email",
+        "phone": "Phone",
+        "message": "Message",
+        "btn": "Send",
+        "btnSending": "Sending...",
+        "ready": "Ready! Your message has been sent successfully.", 
+        "empty": "Empty fields are not allowed. Fill out all fields, they are required."
+    },
+    "thanks" : {
+        "title": "Thanks for visiting my page",
+        "subtitle": "Your generosity makes our work possible and helps us continue uploading content."
+    },
+    "creative": {
+        "title": "Creative services that matter",
+        "subTitle1": "Design and development of web pages",
+        "subTitle2": "Quality Online and In-Person Courses for Your Development",
+        "subTitle3": "Logo Design & UI/UX Design",
+        "sub1": "We focus not only on providing beautiful design, but also on designs that give your customers the information they are looking for and make an important first impression.",
+        "sub2": "Apart from offering excellent web services, we also provide reliable web support and consultations for individual and corporate clients at very affordable prices.",
+        "sub3": "Our designers know the importance of designing attractive and powerful logos and writing attractive texts that improve their visibility and recognition."
+    },
+    "websites": {
+        "title": "With more than 7 years of experience in the digital market",
+        "title2": "we can offer you what you are looking for",
+        "title3": "from a landing page to a complex multi-page website."
+    }
+ 
+}

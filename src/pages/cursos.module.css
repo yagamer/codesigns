@@ -1,0 +1,62 @@
+ 
+.container { 
+    margin-top: 70px;
+}
+ 
+.testContainer { 
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+    background-color: #024959;
+    overflow: hidden;
+    position: relative;
+}
+.slider {
+    width: 200%;
+   
+    height: 100%;
+    display: flex;
+    transform: translateX(-25%);
+ 
+ 
+}
+.boxImage { 
+    width: 25%;
+    height: 100%;
+}
+ .boxImage img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+ .btnl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+ }
+ .btnl i { 
+    cursor: pointer;
+    font-size: 2em;
+    color: white;
+ }
+ .btnr {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    height: 100%;
+ }
+ .btnr i { 
+    cursor: pointer;
+    font-size: 2em;
+    color: white;
+ }

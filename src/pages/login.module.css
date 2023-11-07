@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+
+.container { 
+    margin-top: 70px;
+    
+}
+
+
+.login { 
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer  {
+    width: 700px;
+    background-color: white;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    
+}
+.form h2 { 
+    text-align: center;
+}
+.form label { 
+    display: block;
+    margin: 8px 0;
+}
+.form input { 
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(190, 190, 190);
+    background-color: #E8F0FE;
+}
+ 
+.form { 
+    font-family: 'Gabarito', sans-serif;
+}
+.button { 
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin: 20px 0;
+    background-color: #55CCB0;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 1em;
+}
+.button:hover { 
+    background-color: #50b9a1;
+}
+
+.noaccount { 
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gabarito', sans-serif;
+}
+
+/* alert */
+.error {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF3CD;
+    color: #664D44;
+    margin-top: 20px;
+}
+.error i { 
+    padding-right: 5px;
+}
+.alert {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8D7DA;
+    margin-top: 20px;
+}
+.alert i { 
+    padding-right: 5px;
+}
+
+.googleLogin {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.googleLogin img { 
+    height: 50px;
+
+}
+.passwordReset { 
+    display: block;
+    text-align: end;
+    margin: 8px 0;
+}
+@media screen and (min-width: 0) and (max-width: 600px) { 
+    .loginContainer {
+        padding: 20px;
+    }
+    .googleImage {
+        width: 200px;
+    }
+    .googleLogin {
+        display: flex;
+        justify-content: center;
+    }
+ 
+}

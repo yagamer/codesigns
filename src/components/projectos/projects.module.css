@@ -1,0 +1,88 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.filterBar { 
+  display: flex;
+  justify-content: center;
+}
+.filterContainer { 
+  display: flex;
+}
+.btns { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border: 1px solid #41BCAB;
+  background-color: #41BCAB;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  user-select: none;
+  margin: 0 2px;
+  letter-spacing: 1px;
+}
+.projectsContainer {
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 40px;
+}
+
+.projects { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+
+}
+
+.cardContainer { 
+  cursor: pointer;
+  height: 250px;
+  position: relative;
+ 
+}
+.cardContainer img { 
+  width: 100%;
+  height: 100%;
+  
+}
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #41BCAB;
+  opacity: .9;
+  height: 0;
+  transition: height .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+ 
+}
+
+
+.cardContainer:hover > .slide { 
+  height: 100%;
+  transition: height .5s;
+}
+
+.slide a { 
+  text-decoration: none;
+  color: white;
+  
+}
+
+.content { 
+  visibility: hidden;
+  font-family: 'Roboto', sans-serif;
+  transition: visibility .2s;
+
+}
+
+.cardContainer:hover > .slide > .content {
+  visibility: visible;
+  
+}

@@ -1,0 +1,43 @@
+ 
+.container { 
+    margin-top: 70px;  
+}
+
+.editor { 
+    width: 80%;
+    margin: 0 auto;
+}
+ 
+.description { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description button { 
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #0D6EFD;
+    color: white;
+    border: none;
+}
+.description button:hover { 
+    background-color: #0B5ED7;
+}
+.editor label { 
+    display: block;
+    margin: 10px 8px;
+}
+.editor input { 
+    height: 30px;
+    padding: 5px;
+    width: 20%;
+}
+.editor textarea { 
+    width: 15%;
+}
+
+.editor select { 
+    height: 30px;
+}

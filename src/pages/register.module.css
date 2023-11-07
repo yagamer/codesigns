@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+
+.container { 
+    margin-top: 70px;
+    
+}
+
+.login { 
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer  {
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    
+}
+.form h2, label , input , button {
+    font-family: 'Gabarito', sans-serif;
+}
+.form button { 
+    font-size: 1em;
+}
+.form h2 { 
+    text-align: center;
+}
+.form label { 
+    display: block;
+    margin: 8px 0;
+}
+.form input { 
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(190, 190, 190);
+    background-color: #E8F0FE;
+}
+.form p {
+    text-align: end;
+    margin: 8px 0;
+}
+.button { 
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin: 20px 0;
+    background-color: #55CCB0;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+.button:hover { 
+    background-color: #50b9a1;
+}
+
+.noaccount { 
+    display: flex;
+    justify-content: space-between;
+}
+
+/* alert */
+.alertContainer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF3CD;
+    color: #664D44;
+    height: 40px;
+}
+.alertContainer i {
+    padding-right: 5px;
+}
+.successContainer i { 
+    padding-right: 5px;
+}
+.errorContainer i { 
+    padding-right: 5px;
+}
+.successContainer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CFE2FF;
+    height: 40px;
+}
+.errorContainer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8D7DA;
+    height: 40px;
+}
+
+@media screen and (min-width: 0) and (max-width: 500px) { 
+    .loginContainer {
+        padding: 20px;
+    }
+    
+}

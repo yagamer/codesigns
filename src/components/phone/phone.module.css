@@ -1,0 +1,35 @@
+
+
+
+
+.container { 
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.container img { 
+    width: 500px;
+    position: relative;
+    top: -70px;
+}
+@media screen and (min-width: 0) and (max-width: 999px) {
+
+
+    .container img { 
+        width: 250px;
+        top: -40px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+
+
+    .container img { 
+        width: 350px;
+        top: -50px;
+    }
+}
+
+
+ 

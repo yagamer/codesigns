@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+
+
+.grid { 
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+}
+.imageContainer { 
+    padding: 40px;
+}
+
+.imageContainer img { 
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.formContainer {
+    padding: 40px;
+    
+    
+}
+.form { 
+    width: 100%;
+    height: 100%;
+    background-color: #F2F2F2;
+    padding: 25px;
+}
+@media screen and (min-width: 0) and (max-width: 999px) {
+    .formContainer {
+        padding: 10px;
+    }
+    .grid {
+        display: block;
+    }
+    .form {
+        padding: 15px;
+    }
+    .imageContainer {
+        visibility: hidden;
+        position: absolute;
+    }
+}
+ .title { 
+    font-family: 'Martian Mono', monospace;
+    font-size: 1.7em;
+    text-align: center;
+ }
+ .subtitle { 
+    font-family: 'Martian Mono', monospace;
+    line-height: 30px;
+    margin-top: 10px;
+    text-align: center;
+ }
+.inputGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 0;
+}
+
+.name label { 
+    display: block;
+    margin: 10px 0;
+    font-family: 'Martian Mono', monospace;
+    font-size: .8em;
+  
+
+}
+.name input { 
+    width: 90%;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    font-family: 'Martian Mono', monospace;
+    border-radius: 5px;
+
+}
+.lastName label{ 
+    display: block;
+    margin: 10px 0;
+    font-family: 'Martian Mono', monospace;
+   font-size: .8em;
+
+     
+
+}
+.lastName input {
+    border: none;
+    height: 40px;
+    padding: 5px; 
+    width: 100%;
+    font-family: 'Martian Mono', monospace;
+    border-radius: 5px;
+
+
+}
+
+.email label { 
+    display: block;
+    margin: 10px 0;
+    font-family: 'Martian Mono', monospace;
+   font-size: .8em;
+
+}
+
+.email input { 
+    height: 40px;
+    padding: 5px;
+    border: none;
+    width: 100%;
+    font-family: 'Martian Mono', monospace;
+    border-radius: 5px;
+
+
+}
+
+.email textarea { 
+    width: 100%;
+    height: 100px;
+    resize:  none;
+    border: none;
+    padding: 5px;
+    font-family: 'Martian Mono', monospace;
+
+}
+
+.btn { 
+    border: none;
+    background-color: #2D2D30;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 35px;
+    font-family: 'Martian Mono', monospace;
+    font-size: 1em;
+    cursor: pointer;
+
+}
+.btn:hover { 
+    background-color: #414144;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            appearance: none;
+            margin: 0;
+}
+
+.alert { 
+    background-color: #FFF3CD;
+    display: block;
+    margin-top: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #664D44;
+    padding-left: 10px;
+    border-radius: 5px;
+
+    
+}
+.alert i { 
+    margin-right: 5px;
+}
+
+.alertContainer { 
+    position: relative;
+}
+
+.success { 
+    background-color: #CFE2FF;
+    display: block;
+    margin-top: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+}
+.success i { 
+    margin-right: 5px;
+}
+
+.loading { 
+    width: 30px;
+}

@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+
+.websitesContainer { 
+    width: 90%;
+    height: 900px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 30px;
+    position: relative;
+}
+
+.websitesContainer img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+.titleContainer { 
+    position: absolute;
+    width: 100%;
+ 
+    top: 0;
+    left: 0;
+    
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.title {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.7em;
+    line-height: 1.5;
+     
+    
+}
+@media screen and (min-width: 0) and (max-width: 875px) { 
+    .title {
+        font-size: 1.2em;
+    }
+}

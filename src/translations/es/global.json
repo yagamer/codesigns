@@ -1,0 +1,77 @@
+
+
+{
+    "nav": {
+        "home": "Inicio",
+        "contact": "Contacto",
+        "courses": "Cursos",
+        "login": "Iniciar Sesion",
+        "register": "Registro",
+        "portfolio": "Portafolio"
+    }, 
+    "gallery":  {
+        "welcome": "Bienvenido", 
+        "title": "¡Desarrollemos tu próxima Pagina Web!", 
+        "subtitle": "Necesitas una solución de software única para tu empresa? ¡Sabemos cómo ayudarte",
+        "contact": "Contacto"
+    },
+    "gallery1":  {
+        "title": "¡Cursos en Línea y Presenciales de Calidad!", 
+        "subtitle": "Tu Futuro Educativo, Cursos de Calidad en Línea y Presenciales"
+    },
+    "gallery2": {
+        "title": "¡Diseño de logo & Diseño UI/UX!",
+        "subtitle1": "Nuestros diseñadores conocen la importancia de diseñar logotipos atractivos y potentes",
+        "subtitle2": "y de escribir textos que mejoren su visibilidad y reconocimiento."
+    },
+    "title": {
+        "ourServices": "Nuestros Servicios",
+        "tecnology": "Tecnologías",
+        "contact": "Contacto",
+        "publications": "Publicaciones",
+        "courses": "Cursos",
+        "portfolio": "Portafolio",
+        "project": "Trabajos anteriores que realizé con éxito"
+    }, 
+    "services": {
+        "webDevelopment": "Desarrollo Web",
+        "webDevelopmentSubtitle": "Todo lo que creamos es compatible con dispositivos móviles, tiene integración con las redes sociales.",
+        "designUI": "Diseño UI/UX",
+        "designUISubtitle": "Mejoramos la facilidad de uso y el placer que brinda la interacción con un producto"
+    },
+    "languages": {
+        "title": "Lenguajes de Programacion para el Desarrollo Web",
+        "subtitle": "” El software es una gran combinación entre arte e ingeniería."
+    },
+    "contact": {
+        "title": "Get a quote",
+        "subtitle": "Le invitamos a completar el formulario para recibir una cotización personalizada de nuestros servicios.",
+        "name": "Nombre",
+        "lastName": "Apellido",
+        "email": "Correo",
+        "phone": "Telefono",
+        "message": "Mensaje",
+        "btn": "Enviar",
+        "btnSending": "Enviando...",
+        "ready": "¡Listo! Tu mensaje ha sido enviado correctamente.", 
+        "empty": "Campos vacíos no son permitidos. Llena todos los campos son obligatorios."
+    },
+    "thanks" : {
+        "title": "Gracias por visitar mi página",
+        "subtitle": "Tu generosidad hace posible nuestro trabajo y contribuye a seguir subiendo contenido."
+    },
+    "creative": {
+        "title": "Servicios creativos que importan",
+        "subTitle1": "Diseño y desarrollo de pagínas web",
+        "subTitle2": "Cursos en Línea y Presenciales de Calidad para Tu Desarrollo",
+        "subTitle3": "Diseño de logo & Diseño UI/UX",
+        "sub1": "Nos enfocamos no solo en brindar un diseño hermoso, sino también en diseños que brinden a sus clientes la información que buscan y causen una primera impresión importante.",
+        "sub2": "Además de ofrecer excelentes servicios web, también brindamos soporte web confiable y consultas para clientes individuales y corporativos a precios muy asequibles.",
+        "sub3": "Nuestros diseñadores conocen la importancia de diseñar logotipos atractivos y potentes y de escribir textos atractivos que mejoren su visibilidad y reconocimiento."
+    },
+    "websites": {
+        "title": "Con más de 7 años de experiencia en el mercado digital",
+        "title2": "podemos ofrecerle lo que busca, desde una página de destino",
+        "title3": "hasta un sitio web complejo de varias páginas."
+    }
+}
